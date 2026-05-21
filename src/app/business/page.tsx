@@ -27,7 +27,7 @@ export default function BusinessPage() {
       icon: "fa-headset",
       color: "bg-orange-100 text-orange-700 dark:bg-orange-900/30 dark:text-orange-400",
       title: "Priority Support",
-      desc: "Business shouldn't stop. Get access to our dedicated 24/7 merchant helpline to resolve issues in minutes.",
+      desc: "Business shouldn&apos;t stop. Get access to our dedicated 24/7 merchant helpline to resolve issues in minutes.",
     },
   ];
 
@@ -76,7 +76,7 @@ export default function BusinessPage() {
                     </div>
                   </div>
                   <div className="text-right">
-                    <p className="text-xs text-gray-500 dark:text-zinc-400">Today's Sales</p>
+                    <p className="text-xs text-gray-500 dark:text-zinc-400">Today&apos;s Sales</p>
                     <p className="font-bold text-teal-600 dark:text-teal-400 text-xl">₹ 14,250</p>
                   </div>
                 </div>
@@ -151,21 +151,21 @@ export default function BusinessPage() {
               </div>
               <pre className="text-gray-300 overflow-x-auto">
                 <code>
-                  <span className="text-pink-400">import</span> {"{ MuthuPe }"} <span className="text-pink-400">from</span> <span className="text-green-400">'muthupe-node'</span>;<br/><br/>
-                  <span className="text-blue-400">const</span> muthupe = <span className="text-pink-400">new</span> MuthuPe({"{"}<br/>
-                  {"  "}key_id: process.env.<span className="text-yellow-200">MUTHUPE_KEY_ID</span>,<br/>
-                  {"  "}key_secret: process.env.<span className="text-yellow-200">MUTHUPE_SECRET</span><br/>
-                  {"}"});<br/><br/>
-                  <span className="text-gray-500">// Create an order for your SaaS app</span><br/>
-                  app.<span className="text-blue-400">post</span>(<span className="text-green-400">'/create-order'</span>, <span className="text-pink-400">async</span> (req, res) {"=> {"}<br/>
-                  {"  "}<span className="text-blue-400">const</span> order = <span className="text-pink-400">await</span> muthupe.orders.<span className="text-yellow-200">create</span>({"{"}<br/>
-                  {"    "}amount: <span className="text-purple-400">50000</span>, <span className="text-gray-500">// ₹500.00</span><br/>
-                  {"    "}currency: <span className="text-green-400">"INR"</span>,<br/>
-                  {"    "}receipt: <span className="text-green-400">"order_rcptid_11"</span><br/>
-                  {"  }"});<br/>
-                  {"  "}res.<span className="text-yellow-200">json</span>(order);<br/>
-                  {"}"});
-                </code>
+  <span className="text-pink-400">import</span> {"{ MuthuPe }"} <span className="text-pink-400">from</span> <span className="text-green-400">&apos;muthupe-node&apos;</span>;<br/><br/>
+  <span className="text-blue-400">const</span> muthupe = <span className="text-pink-400">new</span> MuthuPe({"{"}<br/>
+  {"  "}key_id: process.env.<span className="text-yellow-200">MUTHUPE_KEY_ID</span>,<br/>
+  {"  "}key_secret: process.env.<span className="text-yellow-200">MUTHUPE_SECRET</span><br/>
+  {"}"});<br/><br/>
+  <span className="text-gray-500">{"// Create an order for your SaaS app"}</span><br/>
+  app.<span className="text-blue-400">post</span>(<span className="text-green-400">&apos;/create-order&apos;</span>, <span className="text-pink-400">async</span> (req, res) {"=> {"}<br/>
+  {"  "}<span className="text-blue-400">const</span> order = <span className="text-pink-400">await</span> muthupe.orders.<span className="text-yellow-200">create</span>({"{"}<br/>
+  {"    "}amount: <span className="text-purple-400">50000</span>, <span className="text-gray-500">{"// ₹500.00"}</span><br/>
+  {"    "}currency: <span className="text-green-400">&quot;INR&quot;</span>,<br/>
+  {"    "}receipt: <span className="text-green-400">&quot;order_rcptid_11&quot;</span><br/>
+  {"  }"});<br/>
+  {"  "}res.<span className="text-yellow-200">json</span>(order);<br/>
+  {"}"});
+</code>
               </pre>
             </div>
 

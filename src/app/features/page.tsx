@@ -35,7 +35,7 @@ export default function FeaturesPage() {
             built right in.
           </h2>
           <p className="text-[#332b50]/70 dark:text-zinc-400 text-lg">
-            We don't compromise on your data or your money. MuthuPe is engineered to be the safest platform in Bharat.
+            We don&apos;t compromise on your data or your money. MuthuPe is engineered to be the safest platform in Bharat.
           </p>
         </div>
 

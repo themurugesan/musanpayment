@@ -103,7 +103,7 @@ export default function Home() {
                 <span className="text-gradient">Simplified.</span>
               </h1>
               <p className="text-lg text-white/80 mb-10 max-w-xl mx-auto lg:mx-0 font-medium leading-relaxed">
-                Send money, pay bills, buy insurance, and manage your wealth in one secure app. Built on India's UPI, designed for everyone.
+                Send money, pay bills, buy insurance, and manage your wealth in one secure app. Built on India&apos;s UPI, designed for everyone..
               </p>
               
               <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">

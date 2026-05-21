@@ -85,15 +85,15 @@ export default function DocsPage() {
               </div>
               <pre className="text-gray-300 overflow-x-auto font-mono">
                 <code>
-                  curl -X POST https://api.muthupe.com/v1/orders \<br/>
-                  {"  "}-u <span className="text-yellow-200">mp_live_yourkeyid</span>:<span className="text-yellow-200">yourkeysecret</span> \<br/>
-                  {"  "}-H <span className="text-green-400">"Content-type: application/json"</span> \<br/>
-                  {"  "}-d <span className="text-purple-400">'{'{'}'</span><br/>
-                  {"    "}<span className="text-blue-400">"amount"</span>: 50000,<br/>
-                  {"    "}<span className="text-blue-400">"currency"</span>: <span className="text-green-400">"INR"</span>,<br/>
-                  {"    "}<span className="text-blue-400">"receipt"</span>: <span className="text-green-400">"rcptid_11"</span><br/>
-                  {"  "}<span className="text-purple-400">'{'}'}'</span>
-                </code>
+  curl -X POST https://api.muthupe.com/v1/orders \<br/>
+  {"  "}-u <span className="text-yellow-200">mp_live_yourkeyid</span>:<span className="text-yellow-200">yourkeysecret</span> \<br/>
+  {"  "}-H <span className="text-green-400">&quot;Content-type: application/json&quot;</span> \<br/>
+  {"  "}-d <span className="text-purple-400">&apos;{'{'}&apos;</span><br/>
+  {"    "}<span className="text-blue-400">&quot;amount&quot;</span>: 50000,<br/>
+  {"    "}<span className="text-blue-400">&quot;currency&quot;</span>: <span className="text-green-400">&quot;INR&quot;</span>,<br/>
+  {"    "}<span className="text-blue-400">&quot;receipt&quot;</span>: <span className="text-green-400">&quot;rcptid_11&quot;</span><br/>
+  {"  "}<span className="text-purple-400">&apos;{'}'}&apos;</span>
+</code>
               </pre>
             </div>
           </div>
