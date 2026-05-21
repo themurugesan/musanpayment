@@ -28,7 +28,7 @@ export default function BusinessPage() {
       icon: "fa-headset",
       color: "bg-orange-100 text-orange-700 dark:bg-orange-900/30 dark:text-orange-400",
       title: "Priority Support",
-      desc: "Business shouldn&apos;t stop. Get access to our dedicated 24/7 merchant helpline to resolve issues in minutes.",
+      desc: "Business shouldn't stop. Get access to our dedicated 24/7 merchant helpline to resolve issues in minutes.",
     },
   ];
 
@@ -38,14 +38,14 @@ export default function BusinessPage() {
       {/* Hero Section */}
       <section className="relative pt-20 pb-24 lg:pt-32 lg:pb-32 overflow-hidden bg-[#332b50] dark:bg-[#1a1528]">
         <div className="absolute top-0 left-0 w-full h-full overflow-hidden z-0 pointer-events-none opacity-40">
-          <div className="absolute -top-40 right-10 w-96 h-96 rounded-full bg-saffron/30 blur-[120px]"></div>
+          <div className="absolute -top-40 right-10 w-96 h-96 rounded-full bg-[#E8A020]/30 blur-[120px]"></div>
         </div>
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             
             <div className="text-center lg:text-left">
-              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 text-saffron text-xs font-bold uppercase tracking-widest mb-6 border border-white/20 backdrop-blur-sm">
+              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 text-[#E8A020] text-xs font-bold uppercase tracking-widest mb-6 border border-white/20 backdrop-blur-sm">
                 For Merchants & Startups
               </div>
               <h1 className="font-bold text-5xl md:text-6xl text-white leading-tight mb-6 tracking-tight">
@@ -56,7 +56,7 @@ export default function BusinessPage() {
                 Whether you run a local retail shop in Kovilpatti or a scalable SaaS platform, MuthuPe Business provides the infrastructure to collect payments seamlessly.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-                <button className="px-8 py-4 bg-saffron text-[#332b50] font-bold rounded-full hover:bg-yellow-500 hover:shadow-[0_0_20px_rgba(232,160,32,0.4)] transition-all">
+                <button className="px-8 py-4 bg-[#E8A020] text-[#332b50] font-bold rounded-full hover:bg-yellow-500 hover:shadow-[0_0_20px_rgba(232,160,32,0.4)] transition-all">
                   Get Business QR
                 </button>
                 <button className="px-8 py-4 bg-white/10 text-white font-bold rounded-full border border-white/20 hover:bg-white/20 backdrop-blur-md transition-all">
@@ -84,7 +84,7 @@ export default function BusinessPage() {
 
                 {/* Mock QR Standee embedded in dashboard */}
                 <div className="bg-[#f5f7f9] dark:bg-zinc-950 rounded-2xl p-6 text-center border border-gray-200 dark:border-zinc-800 mb-6 relative overflow-hidden">
-                  <div className="absolute top-0 left-0 w-full h-2 bg-[#332b50] dark:bg-saffron"></div>
+                  <div className="absolute top-0 left-0 w-full h-2 bg-[#332b50] dark:bg-[#E8A020]"></div>
                   <h4 className="font-bold text-[#332b50] dark:text-zinc-100 mb-4 mt-2">Scan & Pay</h4>
                   <div className="bg-white p-4 inline-block rounded-xl shadow-sm mb-2 border border-gray-100 dark:border-zinc-800">
                     <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=MuthuPeMerchantPayment" alt="Merchant QR" className="w-32 h-32" />
@@ -209,7 +209,7 @@ export default function BusinessPage() {
             Join thousands of merchants growing their business with zero MDR and instant settlements. Setup takes less than 5 minutes.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="px-8 py-4 bg-saffron text-[#332b50] font-bold rounded-full hover:bg-yellow-500 transition-all">
+            <button className="px-8 py-4 bg-[#E8A020] text-[#332b50] font-bold rounded-full hover:bg-yellow-500 transition-all">
               Download Business App
             </button>
           </div>

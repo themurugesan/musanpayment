@@ -28,14 +28,19 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           
-          {/* Logo */}
-         <Image
-  src="/favicon.png" 
-  alt="MuthuPe Logo" 
-  width={40} 
-  height={40} 
-  className="object-contain transition-transform group-hover:scale-105"
-/>
+          {/* Logo & Text Restored */}
+          <Link href="/" className="flex items-center gap-3 group">
+            <Image
+              src="/favicon.png" 
+              alt="MuthuPe Logo" 
+              width={40} 
+              height={40} 
+              className="object-contain transition-transform group-hover:scale-105"
+            />
+            <span className="font-bold text-2xl tracking-tight leading-none text-[#332b50] dark:text-zinc-50">
+              MuthuPe
+            </span>
+          </Link>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8 font-medium text-[#332b50]/70 dark:text-zinc-300 text-sm">
