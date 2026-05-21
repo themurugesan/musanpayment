@@ -1,4 +1,3 @@
-import Link from "next/link";
 
 export default function AboutPage() {
   const values = [
@@ -51,7 +50,7 @@ export default function AboutPage() {
                 What started as a small tech initiative in the tech corridors of Tamil Nadu has rapidly evolved into a scalable fintech infrastructure. We realized that while UPI transformed India, there was still a massive gap in merchant experience and payment success rates. 
               </p>
               <p className="text-[#332b50]/70 dark:text-zinc-400 leading-relaxed">
-                MuthuPe bridges that gap. We aren&apos;t just an app; we are the underlying rails that local kirana stores, growing SaaS startups, and everyday consumers rely on to power their digital lives.
+                MuthuPe bridges that gap. we are the underlying rails that local kirana stores, growing SaaS startups, and everyday consumers rely on to power their digital lives.
               </p>
             </div>
             
