@@ -5,6 +5,7 @@ import { Moon, Sun, Menu, X } from "lucide-react";
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import Image from "next/image";
 
 export default function Navbar() {
   const { setTheme, resolvedTheme } = useTheme();
@@ -28,16 +29,13 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-20">
           
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-3 group">
-            <img 
-              src="/favicon.png" 
-              alt="MuthuPe Logo" 
-              className="w-10 h-10 object-contain transition-transform group-hover:scale-105"
-            />
-            <span className="font-bold text-2xl tracking-tight leading-none text-[#332b50] dark:text-zinc-50">
-              MuthuPe
-            </span>
-          </Link>
+         <Image
+  src="/favicon.png" 
+  alt="MuthuPe Logo" 
+  width={40} 
+  height={40} 
+  className="object-contain transition-transform group-hover:scale-105"
+/>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8 font-medium text-[#332b50]/70 dark:text-zinc-300 text-sm">

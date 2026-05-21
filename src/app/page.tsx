@@ -1,9 +1,9 @@
+/* eslint-disable @next/next/no-img-element */
 "use client";
 
 import { useEffect, useRef } from "react";
 import * as THREE from "three";
-import Link from "next/link";
-
+import Image from "next/image";
 export default function Home() {
   const mountRef = useRef<HTMLDivElement>(null);
 
@@ -133,8 +133,7 @@ export default function Home() {
                       </div>
                     </div>
                     <div className="flex items-center gap-2">
-                      <img src="/favicon.png" alt="MuthuPe Logo" className="w-6 h-6 object-contain" />
-                      <span className="text-white font-bold text-lg tracking-tight">MuthuPe</span>
+<Image src="/favicon.png" alt="MuthuPe Logo" width={24} height={24} className="w-6 h-6 object-contain" />                      <span className="text-white font-bold text-lg tracking-tight">MuthuPe</span>
                     </div>
                   </div>
 

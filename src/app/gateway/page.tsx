@@ -1,5 +1,7 @@
 "use client";
 
+import Image from "next/image";
+
 
 export default function GatewayPage() {
   const integrationPartners = [
@@ -39,8 +41,7 @@ export default function GatewayPage() {
           <div className="relative mx-auto w-full max-w-sm transition-transform duration-500 hover:-translate-y-2">
             <div className="bg-white dark:bg-zinc-900 rounded-[2rem] p-6 shadow-2xl border border-gray-100 dark:border-zinc-800">
               <div className="text-center mb-6 border-b border-gray-100 dark:border-zinc-800 pb-4">
-                <img src="/favicon.png" alt="Logo" className="w-8 h-8 mx-auto mb-2" />
-                <p className="text-sm text-gray-500 font-medium">Acme Corp Checkout</p>
+<Image src="/favicon.png" alt="Logo" width={32} height={32} className="mx-auto mb-2" />                <p className="text-sm text-gray-500 font-medium">Acme Corp Checkout</p>
                 <h3 className="font-bold text-2xl text-[#332b50] dark:text-white">₹ 1,499.00</h3>
               </div>
               

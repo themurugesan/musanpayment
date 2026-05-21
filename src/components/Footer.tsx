@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Footer() {
@@ -9,8 +10,7 @@ export default function Footer() {
           {/* Brand & Social Column */}
           <div className="col-span-2 md:col-span-1">
             <Link href="/" className="flex items-center gap-2 mb-4 group">
-              <img src="/favicon.png" alt="MuthuPe Logo" className="w-8 h-8 object-contain transition-transform group-hover:scale-105" />
-              <span className="font-bold text-xl text-white tracking-tight">MuthuPe</span>
+<Image src="/favicon.png" alt="MuthuPe Logo" width={32} height={32} className="object-contain transition-transform group-hover:scale-105" />              <span className="font-bold text-xl text-white tracking-tight">MuthuPe</span>
             </Link>
             <p className="text-white/50 text-sm mb-6 leading-relaxed">
               Bharatiya Payments. Simplified. Based in Chennai, built for the world.
